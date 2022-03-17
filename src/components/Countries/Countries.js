@@ -11,7 +11,7 @@ const Countries = (props) => {
   }, []);
   return (
     <div>
-      <h1>Hello chollo gello mello countries: {countries.length}</h1>
+      <h1>Hello from countries: {countries.length}</h1>
       <div className="countries-container">
         {countries.map((country) => (
           <Country country={country} key={country.cca3}></Country>
